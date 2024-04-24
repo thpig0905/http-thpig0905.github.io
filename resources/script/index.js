@@ -85,14 +85,3 @@ function addProject(project, targetContainer, imageSize, imagePosition) {
 
   container.append(article);
 }
-
-const bookSearch = new Project(
-  "/booksearch",
-  "https://em-content.zobj.net/thumbs/240/facebook/65/left-pointing-magnifying-glass_1f50d.png",
-  "Book Search",
-  "Book Search and Inquiry Service",
-  ["VanilaJS", "jQeury", "Kakao Search API"],
-  ["2024.04.24", "2024.04.24"]
-);
-
-addProject(bookSearch, "frontend", "contain", "center");
